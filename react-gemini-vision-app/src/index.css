@@ -1,0 +1,16 @@
+.image-container {
+    height: 30vh;
+    width: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    background-size: contain;
+}
+
+.upload {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
