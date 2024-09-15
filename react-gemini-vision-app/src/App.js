@@ -7,7 +7,24 @@ const App = () => {
   const [error, setError] = useState("");
 
   const surpriseOption = [
-    'does this image has cat?',
+    "What is the main object in this image?",
+    "Are there any noticeable emotions or actions taking place in this image?",
+    "What natural elements can you spot here?",
+    "Does this image seem to be taken indoors or outdoors?",
+    "What colors dominate this image?",
+    "Can you identify any specific location or landmark in this image?",
+    "Is there any text visible in this image? What does it say?",
+    "What type of weather is depicted in this image?",
+    "Do you think this image is from a city or rural area?",
+    "What kind of mood does this image convey?",
+    "Can you spot any vehicles or transportation methods in this image?",
+    "Does this image show any signs of a celebration or event?",
+    "Does this image contain any food? Can you identify it?",
+    "What historical period could this image be from?",
+    "Do you think this image was captured recently or is it old?",
+    "Is there any art or decoration visible in this image?",
+    "What kind of clothing is being worn in this image?",
+    "Can you guess the location of this image based on visual clues?"
   ]
 
   const surprise = async () => {
@@ -96,7 +113,7 @@ const App = () => {
           {(response || error) && <button className="" onClick={clear}>Clear</button>}
         </div>
         {error && <p className="">{error}</p>}
-        {response && <p className="">{response}</p>}
+        {response && <p className="answer">{response}</p>}
       </section>
 
     </div>

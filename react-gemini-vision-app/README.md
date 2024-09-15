@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Image-Based Answering Web Application Using Google Gemini API
+Overview : This repository contains a web-based application that allows users to upload an image, and in return, receive a detailed answer based on that particular image. The application uses the Google Gemini API to analyze the uploaded image and provide relevant information. The application is user-friendly and intuitive, making image-based queries effortless and accurate.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+Upload Image: Users can upload an image directly from their local system.
+Real-time Image Analysis: Once the image is uploaded, the app sends it to the Google Gemini API for analysis.
+Response Generation: The application processes the API's response and presents it to the user in a clear, readable format.
+Cross-Platform Accessibility: The web app is responsive and works across different devices (desktop, tablet, mobile).
+Technology Stack
+Frontend: HTML5, CSS3, JavaScript (React)
+Backend: Node.js/Express
+API Integration: Google Gemini API for image analysis
+Version Control: GitHub
+Prerequisites
+To run this project locally, you will need:
 
-## Available Scripts
+Node.js installed.
+A Google Cloud account with access to the Google Gemini API.
+API credentials (API key or OAuth token) for authenticating with the Google Gemini API.
+Getting Started
+1. Clone the Repository
+git clone https://github.com/GDivyanshu444/Project.git
+cd react-gemini-vision-app
 
-In the project directory, you can run:
+2. Install Dependencies run the following command to install all required dependencies:
+npm install
 
-### `npm start`
+3. Setup Environment Variables
+Create a .env file in the root of your project to store your Google Gemini API credentials:
+GOOGLE_API_KEY=your-google-gemini-api-key
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Make sure to replace your-google-gemini-api-key with your actual API key.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Running the Application
+For Node.js/Express:
+to run frontend use following command
+npm run start:frontend 
+to run backend use following command
+npm run start:backend
 
-### `npm test`
+make sure you have installed nodemon in your local machine.
+The application should now be running on http://localhost:3000 (or another specified port).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Using the Application
+Open your browser and navigate to http://localhost:3000
+Upload an image by clicking the Upload Image button.
+Wait for the Google Gemini API to analyze the image and display the corresponding result.
+Google Gemini API Integration
+This application uses the Google Gemini API to analyze images and provide meaningful answers based on the content of the image. For more details on how the Google Gemini API works, refer to the official Google Gemini API documentation.
 
-### `npm run build`
+# Contributing:
+Contributions are welcome! Feel free to submit a pull request or open an issue if you find any bugs or have feature requests.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Contact
+If you have any questions or suggestions, please reach out:
+Email: gdivyanshu44472@gmail.com
+GitHub: GDivyanshu444
